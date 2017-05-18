@@ -12,8 +12,7 @@
 */
 
 Route::get('/', function () {
-    return 'hello world';
-//    return view('front.index');
+    return view('front.index');
 });
 
 Route::post('setClientsData', 'Clients\ClientsController@setClientsData');
