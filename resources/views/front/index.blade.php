@@ -21,14 +21,14 @@
 					<input type="number" class="input-text" placeholder="借款金额:" name="total" datatype="n"/>
 				</li>
 				<li style="color: #333;">
-					<label class="loadway">借款方式</label><br />
+					<label class="loadway">借款方式：</label><br />
 					<input type="checkbox" name="type[]" value="1"  id="gjjd"/><label for="gjjd">公积金贷</label>
 					<input type="checkbox" name="type[]" value="2"  id="sbd"/><label for="sbd">社保贷</label>
 					<input type="checkbox" name="type[]" value="3"  id="gzd"/><label for="gzd">工资贷</label><br />
-					<input type="checkbox" name="type[]" value="4" id="fcd"/><label for="fcd">房车贷</label>
+					<input type="checkbox" name="type[]" value="4" id="fcd"/><label for="fcd">房车贷　</label>
 					<input type="checkbox" name="type[]" value="5"  id="syd"/><label for="syd">生意贷</label>
 				</li>
-				<li>
+				<li class="btn-wrapper">
 					<input type="button" id="submitBtn" value="确认咨询"/>
 					<p id="SubBtnInfo">温馨提示:稍后会有客服人员与您联系</p>
 				</li>
