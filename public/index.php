@@ -18,10 +18,7 @@
 |
 */
 
-$res = require __DIR__.'/../bootstrap/autoload.php';
-var_dump($res);
-
-
+require __DIR__.'/../bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
