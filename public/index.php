@@ -17,8 +17,10 @@
 | loading any of our classes later on. It feels great to relax.
 |
 */
-echo __DIR__.'/../bootstrap/autoload.php';die;
-require __DIR__.'/../bootstrap/autoload.php';
+
+$res = require __DIR__.'/../bootstrap/autoload.php';
+var_dump($res);
+
 
 
 /*
