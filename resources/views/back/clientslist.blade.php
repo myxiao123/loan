@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        html, body {
+            font-size: 14px;
+        }
+        table {
+            margin: 5rem 2rem 0 2rem;
+            font-size: 2.5rem;
+        }
+        th {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <table>
+    <table class="table table-striped table-bordered">
         <tr>
             <th>ID</th>
             <th>客户名</th>
