@@ -18,9 +18,9 @@
 | loading any of our classes later on. It feels great to relax.
 |
 */
-
-require __DIR__.'/../bootstrap/autoload.php';
 echo __DIR__.'/../bootstrap/autoload.php';die;
+require __DIR__.'/../bootstrap/autoload.php';
+
 
 /*
 |--------------------------------------------------------------------------
