@@ -42,6 +42,7 @@ a {
 	margin-bottom: 10px;
 	font-size: 14px;
 }
+
 .list-wraper li input{
 	border: 1px solid #ccc;
 	border-radius:6px;
@@ -85,10 +86,14 @@ input[type="checkbox"]{
 }
 
 .btn-wrapper {
+	height: 10%;
 	text-align: center;
 }
+.list-wraper .btn-wrapper {
+	margin-bottom: 0;
+}
 
-/*==========以下部分是Validform必须的===========*/
+	/*==========以下部分是Validform必须的===========*/
 .Validform_checktip{
 	margin-left:98px;
 	line-height:27px;
