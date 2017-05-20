@@ -51,11 +51,11 @@ a {
 	font-size: 14px;
 }
 .list-wraper li input[type='checkbox'] {
+	margin-top: 6px;
 	vertical-align: middle;
 }
 .list-wraper li label {
 	vertical-align: middle;
-	line-height: 19px;
 }
 .list-wraper li input:focus{
 	border: 1px solid #488ee7;
