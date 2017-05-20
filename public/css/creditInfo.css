@@ -44,12 +44,14 @@ a {
 }
 
 .list-wraper li input{
-	vertical-align: middle;
 	border: 1px solid #ccc;
 	border-radius:6px;
 	outline: none;
 	padding:6px 10px ;
 	font-size: 14px;
+}
+.list-wraper li input[type='checkbox'] {
+	vertical-align: middle;
 }
 .list-wraper li label {
 	vertical-align: middle;
