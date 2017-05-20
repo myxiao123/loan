@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::post('setClientsData', 'Clients\ClientsController@setClientsData');
 
 Route::get('getClientsData', 'Clients\ClientsController@getClientsData');
+
+Route::any('delete/{id}', 'Clients\ClientsController@delete');

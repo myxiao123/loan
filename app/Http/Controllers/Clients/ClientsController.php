@@ -61,4 +61,19 @@ class ClientsController extends Controller
         }
         return view('back.clientslist', ['data' => $clients]);
     }
+
+    public function delete($id) {
+        $msg = '';
+        $errno = 1;
+        $client = Client::where('delete', 0)->find($id);
+        if(!$client) {
+            $msg = '删除失败！';
+            $errno = 0;
+        }
+        $client->delete = 1;
+        if($client->save()) {
+            $msg = '删除成功！';
+        }
+        return $this->returnJsonData($msg, $errno);
+    }
 }
